@@ -13,10 +13,11 @@ cd cs3219_otot_taska1
 In the `app/index.html` file, search for "TODO" and fill in the blanks.
 
 Follow these guide to Dockerize the sample node app.
+- [https://nodejs.org/en/docs/guides/nodejs-docker-webapp/](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
 
-- [https://codeforgeek.com/render-html-file-expressjs/](https://codeforgeek.com/render-html-file-expressjs/)
-- [https://www.cloudbees.com/blog/using-docker-compose-for-nodejs-development](https://www.cloudbees.com/blog/using-docker-compose-for-nodejs-development)
+Extra: Learning how to render HTML file using express.js
 - [https://expressjs.com/en/starter/hello-world.html](https://expressjs.com/en/starter/hello-world.html)
+- [https://codeforgeek.com/render-html-file-expressjs/](https://codeforgeek.com/render-html-file-expressjs/)
 
 ## A1.2 - Dockerize NGINX reverse proxy in `nginx-sample` folder
 
