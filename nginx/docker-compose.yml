@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  nodeserver:
+    build:
+      context: ./app
+    expose:
+      - "3000"
+    networks:
+      - app-network
+
+  nginx:
+    build:
+      context: ./nginx
+    ports:
+      - "80:80"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
